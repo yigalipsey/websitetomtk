@@ -11,6 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        faculty: ['"Faculty Glyphic"', "sans-serif"],
+        libre: ['"Libre Baskerville"', "serif"],
+      },
     },
   },
   plugins: [],
