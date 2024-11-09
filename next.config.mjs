@@ -4,7 +4,7 @@ const nextConfig = {
     // מאפשר לדלג על בדיקות ה-ESLint בזמן הבנייה
     ignoreDuringBuilds: true,
   },
-  // הוסף שאר ההגדרות הנדרשות כאן
+  output: "export", // מאפשר יצירת אתר סטטי
 };
 
 export default nextConfig;
