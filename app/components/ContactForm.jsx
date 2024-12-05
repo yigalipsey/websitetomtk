@@ -51,7 +51,7 @@ const ContactForm = () => {
   return (
     <section id="contact" className="scroll-mt-20">
       <div className="py-8 lg:py-16 px-4 mx-auto w-4/5">
-        <h2 className="mb-4 text-4xl font-faculty tracking-tight font-extrabold text-center text-[#1c1c1c]">
+        <h2 className="mb-4 text-4xl font-bebas tracking-tight font-extrabold text-center text-[#1c1c1c]">
           Contact Us
         </h2>
         <p className="mb-8 text-lg lg:mb-16 font-light text-center text-[#4a4a4a] sm:text-xl">

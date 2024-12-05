@@ -5,6 +5,9 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   output: "export", // מאפשר יצירת אתר סטטי
+  images: {
+    unoptimized: true, // מבטל אופטימיזציית תמונות
+  },
 };
 
 export default nextConfig;

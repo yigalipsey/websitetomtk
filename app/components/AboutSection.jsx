@@ -5,7 +5,7 @@ const AboutSection = () => {
       className="bg-white shadow-xl rounded-lg w-4/5 mx-auto p-10 mt-16 text-center md:text-left scroll-mt-20 z-20 relative"
     >
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 mb-4 font-faculty">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4 font-bebas">
           About Us
         </h2>
         <p className="text-lg text-gray-700">
