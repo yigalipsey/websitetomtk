@@ -22,5 +22,5 @@ body {
 
 /* קבע את הפונט Libre Baskerville כברירת מחדל לכל האתר */
 body {
-  @apply font-libre;
+  @apply font-bebas;
 }
