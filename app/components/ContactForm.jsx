@@ -6,7 +6,6 @@ const ContactForm = () => {
     fullName: "",
     email: "",
     phone: "",
-    industry: "",
     location: "",
     projectDescription: "",
   });
@@ -22,7 +21,7 @@ const ContactForm = () => {
     setStatus("sending");
 
     try {
-      const response = await fetch("https://formspree.io/f/meoqkjnn", {
+      const response = await fetch("https://formspree.io/f/xbljbejg", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -114,23 +113,7 @@ const ContactForm = () => {
               placeholder="+1234567890"
             />
           </div>
-          <div>
-            <label
-              htmlFor="industry"
-              className="block mb-2 text-sm font-medium text-[#1c1c1c]"
-            >
-              Industry
-            </label>
-            <input
-              type="text"
-              id="industry"
-              name="industry"
-              value={formData.industry}
-              onChange={handleChange}
-              className="shadow-sm bg-[#eae8e4] border border-gray-300 text-[#1c1c1c] text-sm rounded-lg focus:ring-[#1c1c1c] focus:border-[#1c1c1c] block w-full p-2.5"
-              placeholder="e.g., Tech, Finance, Health (optional)"
-            />
-          </div>
+
           <div>
             <label
               htmlFor="location"
@@ -193,6 +176,20 @@ const ContactForm = () => {
           </div>
         )}
       </div>
+      {/* פוטר ממורכז */}
+      <footer className="flex items-center justify-center text-center">
+        <p className="text-gray-500  text-lg ">
+          Website designed and developed by{" "}
+          <a
+            href="https://yigalipsey.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#865136] text-xl  hover:underline"
+          >
+            Yigal Lipsey
+          </a>
+        </p>
+      </footer>
     </section>
   );
 };
